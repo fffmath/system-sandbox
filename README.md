@@ -27,7 +27,7 @@ create a `secret.py` containing the passwords and secret keys using the template
 ```shell
 # create database
 python manage.py makemigrations
-python manage.py migrates
+python manage.py migrate
 # create superuser
 python manage.py createsuperuser --username=foo --email=foo@bar.com
 ```
